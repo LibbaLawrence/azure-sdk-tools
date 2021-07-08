@@ -397,7 +397,7 @@ class ProtocolOperationView(FormattingClass):
         param = []
         pageable = None
         lro = None
-        
+
         if yaml_data["operationGroups"][op_group_num]["operations"][op_num].get(
             "extensions"
         ):
